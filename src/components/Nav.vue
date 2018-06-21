@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar fixed id='nav'>
+  <v-toolbar height="60px" fixed id='nav'>
     <v-toolbar-title id='nav-title' class="white--text">Pinnacle</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-btn icon>
@@ -11,7 +11,6 @@
     <v-btn icon>
       <v-icon>mail</v-icon>
     </v-btn>
-    
   </v-toolbar>
 </template>
 

@@ -1,13 +1,20 @@
 <template>
-<v-app>
+<v-app pa-0 ma-0>
   <Nav/>
   <Hero/>
+  <About/>
+  <Clients/>
+  <Contact/>
 </v-app>
 </template>
 
 <script>
 import Nav from './Nav'
 import Hero from './Hero'
+import About from './About'
+import Clients from './Clients'
+import Contact from './Contact'
+
 export default {
   data () {
     return {
@@ -16,7 +23,10 @@ export default {
   },
   components: {
     'Nav': Nav,
-    'Hero': Hero
+    'Hero': Hero,
+    'About': About,
+    'Clients': Clients,
+    'Contact': Contact
   }
 }
 </script>
@@ -33,6 +43,10 @@ h1 {
 #nav-title {
   font-family: 'Alfa Slab One', cursive;
   font-size: 32px;
+}
+
+#about {
+  background-color: #34495E;
 }
 </style>
 
